@@ -244,6 +244,7 @@ namespace nanoFramework.Tools.Debugger.Serial
                     // adjust settings for serial port
                     device.BaudRate = 115200;
                     device.DataBits = 8;
+					device.IsDataTerminalReadyEnabled = true;
                    
                     /////////////////////////////////////////////////////////////
                     // need to FORCE the parity setting to _NONE_ because        

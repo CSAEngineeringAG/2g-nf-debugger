@@ -105,6 +105,7 @@ namespace nanoFramework.Tools.Debugger.PortSerial
                     // baud rate is coming from the property
                     Device.BaudRate = BaudRate;
                     Device.DataBits = 8;
+                    Device.IsDataTerminalReadyEnabled = true;
 
                     /////////////////////////////////////////////////////////////
                     // need to FORCE the parity setting to _NONE_ because        
